@@ -1,2 +1,2 @@
 # BlueJThema
-Een thema voor BlueJ
+Thema ontworpen door Cyrille Van Daele.
