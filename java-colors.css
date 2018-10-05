@@ -1,0 +1,79 @@
+.token-keyword1 {
+    -fx-fill: #AF2929; /* Green#FF00FF */
+}
+.token-keyword2 {
+    -fx-fill: #EE6363; /* 0300e5 */
+}
+.token-keyword3 {
+    -fx-fill: #3768BF; /* f4511e */
+}
+
+.token-comment-normal {
+    -fx-fill: #999999; /* FF0000 */
+}
+.token-comment-javadoc {
+    -fx-fill: #999999; /*FFFF66*/
+}
+.token-comment-standout { /* 11FF44*/ //3768BF
+    -fx-fill: #3768BF;
+}
+
+.token-primitive {
+    -fx-fill: #EE6363;/*#FFFFFF*/
+}
+.token-string-literal {
+    -fx-fill: #3768BF;
+}
+
+.token-char-literal{
+	-fx-fill: #3768BF;
+}
+
+.token-label {
+    -fx-fill: #ff38ff;/* ff38ff */
+}
+.token-invalid {
+    -fx-fill: #FFFFFF;
+}
+/* Default text colour */
+.token-default {
+    -fx-fill: lightgrey; /* lightgrey */
+}
+
+.scope-colors {
+    -bj-background-color: rgb(60,63,65); /*black  3c3f41 */
+
+    -bj-class-color: rgb(38, 38, 38);/* (255, 80, 80) */
+    -bj-class-outer-color: rgb(255, 80, 80); /* 67, 37, 67) */
+    -bj-class-inner-color: rgb(0, 0, 0);/* 45, 25, 45 */
+
+    -bj-method-color: rgb(53, 56, 58);/* (5, 5, 75 */
+    -bj-method-outer-color: black;/* 40, 40, 50 rgb(255, 80, 80); */
+
+    -bj-selection-color: rgb(22, 29, 59);/*22, 22, 7*/
+    -bj-selection-outer-color: rgb(53, 53, 132);/* rgb(67, 67, 45) */
+    -bj-selection-inner-color: rgb(255,255,255); /*nieuw*/
+
+    -bj-iteration-color: rgb(155, 80, 80); /* 7, 22, 7 */
+    -bj-iteration-outer-color: rgb(155, 80, 80);/* rgb(45, 78, 45); */
+
+    -bj-breakpoint-overlay-color: rgba(244, 81, 30, 0.3);
+    -bj-step-overlay-color: rgba(255, 255, 102,0.2) /* rgba(235, 115, 235, 0.6); */
+}
+
+.moe-step-mark-icon {
+    -fx-fill: rgb(255, 255, 102); /* rgb(235, 115, 235);*/
+    -fx-stroke: white;
+}
+
+.moe-editor-pane {
+    -fx-background-color: black; // outside of class body
+    -fx-highlight-fill: hsb(150, 60%, 40%);  // highlight on mouse drag
+}
+
+.moe-find-result {
+    -rtfx-background-color: hsb(211, 20%, 99%); // not sure what this does... ctrl+f highlighting is managed by -fx-highlight-fill
+}
+.moe-editor-pane .caret {
+   -fx-stroke: lightgray;/*rgb(255, 200, 200);*/
+}
